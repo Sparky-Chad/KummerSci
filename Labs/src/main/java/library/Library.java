@@ -7,15 +7,13 @@ import java.util.ArrayList;
 import java.io.*;
 //for file input and output
 import java.util.Scanner;
-import javax.swing.*;
-//for possible use of creating small Jpanels for input
 
 public class Library {
     public ArrayList<Book> books;
     //store dynamically all books in the library
-    public static final String path = "./data/index.txt";
+    public static final String path = "./library/data/index.txt";
     //path to book file storage
-    public static final String ImageString = "./data/Image/";
+    public static final String ImageString = "./library/data/Image/";
     //constant path to images
 
     //constructor
@@ -45,10 +43,11 @@ public class Library {
                     str[j] = ifile.nextLine();  //second iterator get image name
                     j++;
                 } else if(j == 2) {
-                    str[j] = ifile.nextLine();  //get number checked out
+                    str[j] = ifile.next();  //get number checked out
                     j = 0;
-                    books.add(new Book(str[0], str[1], Boolean.getBoolean(str[2])));
+                    books.add(new Book(str[0], str[1], Boolean.parseBoolean(str[2])));
                     //add the new book to the list
+                    System.out.println(str[0] + " " + str[1] + " " + str[2]);
                 } else {
                     System.out.println("Warning Input Loop passed bounds****");
                 }
