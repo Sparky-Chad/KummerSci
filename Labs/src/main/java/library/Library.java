@@ -43,9 +43,10 @@ public class Library {
                     str[j] = ifile.nextLine();  //second iterator get image name
                     j++;
                 } else if(j == 2) {
-                    str[j] = ifile.next();  //get number checked out
+                    str[j] = ifile.nextLine();
                     j = 0;
-                    books.add(new Book(str[0], str[1], Boolean.parseBoolean(str[2])));
+                    boolean out = Boolean.parseBoolean(str[2]);
+                    books.add(new Book(str[0], str[1], out));
                     //add the new book to the list
                     System.out.println(str[0] + " " + str[1] + " " + str[2]);
                 } else {
@@ -53,10 +54,10 @@ public class Library {
                 }
 
              }
-        } catch (FileNotFoundException exception) {
-            //file not found
-            System.out.println("Warning Input File not Found*****");
-        }   //end try and catch
+        }  catch (IOException exception) {
+            //some other exception
+            System.out.println("Issue with input file");
+        }
 
     }   //end input loops
     //file output
@@ -70,9 +71,7 @@ public class Library {
                 //creating a temporary book and outputting its string
             }
             ofile.close();
-        } catch(FileNotFoundException exception) {  //if the file isn't found
-            System.out.println("outputfile not found****");
-        } catch(IOException exception) {    //any other reason, helps to find any issue
+        }  catch(IOException exception) {    //any other reason, helps to find any issue
             System.out.println("Issue with file writer****");
         } 
         
