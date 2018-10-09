@@ -32,32 +32,22 @@ public class Library {
             //search file
             int j = 0;
             //var for an internal index
-            String str[] = new String[3];
+            String str[] = new String[50];
             //temp save each var
-            while(ifile.hasNext()) {
-                //check internal index for what should occur
-                if(j == 0) {
-                    str[j] = ifile.nextLine();  //first iteration store name
-                    j++;
-                } else if (j == 1) {
-                    str[j] = ifile.nextLine();  //second iterator get image name
-                    j++;
-                } else if(j == 2) {
-                    str[j] = ifile.nextLine();
-                    j = 0;
-                    boolean out = Boolean.parseBoolean(str[2]);
-                    books.add(new Book(str[0], str[1], out));
-                    //add the new book to the list
-                    System.out.println(str[0] + " " + str[1] + " " + str[2]);
-                } else {
-                    System.out.println("Warning Input Loop passed bounds****");
-                }
+            int o = 0;
+            for(int i = 0; ifile.hasNext() && i < 50; i++) {
+                str[i] = ifile.next();
+                o = i;
+            }
+            for (int i = 0; i < o - 3; i += 3) {
+                books.add(new Book(str[i], str[i+1], Boolean.parseBoolean(str[i+2])));
+            }
+            ifile.close();
 
-             }
         }  catch (IOException exception) {
             //some other exception
             System.out.println("Issue with input file");
-        }
+        } 
 
     }   //end input loops
     //file output

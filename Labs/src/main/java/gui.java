@@ -1,12 +1,14 @@
 //set up gui with multiple windows for each of the different 
 //things the class needs to do
 import java.awt.*;  //for color and other
+import java.util.InputMismatchException;
+
 import javax.swing.*; //swing gui
 import library.*;
 
 public class gui {
     //main methods
-    public static void main(String agrs[]) {
+    public static void main(String agrs[]) throws InputMismatchException {
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setTitle("Library Window");

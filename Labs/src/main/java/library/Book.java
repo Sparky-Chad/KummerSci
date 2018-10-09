@@ -43,9 +43,6 @@ public class Book {
 
     //to string
     public String toString() {
-        int out;
-        if(getAv()) out = 1;
-        else out = 0;
-        return String.format("%s\n%s\n%d\n", getName(), getAuthor(), out);
+        return String.format("%s\n%s\n%b\n", getName(), getAuthor(), getAv());
     }
 }
