@@ -19,8 +19,10 @@ public class Library {
     //constructor
     public Library() {
         books = new ArrayList<Book>();
-        input();
+        //input();
         //input available books
+        books.add(new Book("Hunger Games", "Katniss", true));
+        books.add(new Book("Harry Potter", "JK Rolling", false));
     }
 
     //file input
@@ -66,6 +68,13 @@ public class Library {
         } 
         
     }//end output
-
+    public int findEqual(String in) {
+        int out = -1;
+        int o = 0;
+        for(Book i: books) {
+            if(in.equals(i.getName())&&i.getAv()) out = o;
+        }
+        return out;
+    }
     
 }//end library class
