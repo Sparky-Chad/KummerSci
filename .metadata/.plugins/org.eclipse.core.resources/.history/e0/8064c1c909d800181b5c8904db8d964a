@@ -1,0 +1,17 @@
+import java.util.Scanner;
+import java.io.*;
+
+public class TopTen {
+    private Player top[];
+
+    public TopTen() {
+        //default constructor
+        top = new Player[10];
+        //initialize top ten array
+    }
+
+    public void iFile(String path) throws IOException {
+    	Scanner ifile = new Scanner(new File(path));
+    	
+    }
+}
