@@ -1,0 +1,234 @@
+!SESSION 2018-10-25 03:28:30.660 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:33:47.644
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:33:47.644
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:33:47.644
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:33:47.645
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:33:47.725
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:33:47.726
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:33:47.726
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:33:47.726
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:34:35.705
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:34:35.706
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:34:35.706
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:34:35.706
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:34:35.741
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:34:35.742
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:34:35.742
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:34:35.742
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:35:09.389
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:35:09.390
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:35:09.390
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:35:09.390
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:35:09.487
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:35:09.487
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:35:09.492
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:35:09.492
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:35:40.171
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:35:40.171
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:35:40.171
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:35:40.185
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:35:40.236
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:35:40.236
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:35:40.237
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:35:40.237
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:36:17.673
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:36:17.674
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:36:17.674
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:36:17.674
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:36:17.710
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:36:17.710
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:36:17.711
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:36:17.711
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:39:00.204
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:39:00.204
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:39:00.205
+!MESSAGE Software being installed: Eclipse GitHub integration with task focused interface 5.1.0.201809111528-r (org.eclipse.mylyn.github.feature.feature.group 5.1.0.201809111528-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:39:00.205
+!MESSAGE Missing requirement: Eclipse GitHub integration with task focused interface 5.1.0.201809111528-r (org.eclipse.mylyn.github.feature.feature.group 5.1.0.201809111528-r) requires 'org.eclipse.mylyn_feature.feature.group 3.9.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:39:00.229
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:39:00.230
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:39:00.230
+!MESSAGE Software being installed: Eclipse GitHub integration with task focused interface 5.1.0.201809111528-r (org.eclipse.mylyn.github.feature.feature.group 5.1.0.201809111528-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:39:00.230
+!MESSAGE Missing requirement: Eclipse GitHub integration with task focused interface 5.1.0.201809111528-r (org.eclipse.mylyn.github.feature.feature.group 5.1.0.201809111528-r) requires 'org.eclipse.mylyn_feature.feature.group 3.9.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:39:23.571
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:39:23.572
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:39:23.574
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:39:23.575
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:39:23.588
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:39:23.588
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:39:23.595
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:39:23.596
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:39:53.687
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:39:53.687
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:39:53.687
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:39:53.687
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:39:53.692
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:39:53.692
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:39:53.692
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:39:53.693
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:41:03.868
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:41:03.870
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:41:03.871
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:41:03.872
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:41:03.921
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:41:03.921
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:41:03.921
+!MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:41:03.921
+!MESSAGE Missing requirement: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:41:38.703
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:41:38.706
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:41:38.706
+!MESSAGE Software being installed: Git integration for Eclipse - auto-import for Eclipse >= 4.6 5.1.3.201810200350-r (org.eclipse.egit.ui.smartimport 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:41:38.707
+!MESSAGE Missing requirement: Git integration for Eclipse - auto-import for Eclipse >= 4.6 5.1.3.201810200350-r (org.eclipse.egit.ui.smartimport 5.1.3.201810200350-r) requires 'bundle org.eclipse.ui.ide 3.12.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:41:38.728
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:41:38.728
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:41:38.729
+!MESSAGE Software being installed: Git integration for Eclipse - auto-import for Eclipse >= 4.6 5.1.3.201810200350-r (org.eclipse.egit.ui.smartimport 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:41:38.729
+!MESSAGE Missing requirement: Git integration for Eclipse - auto-import for Eclipse >= 4.6 5.1.3.201810200350-r (org.eclipse.egit.ui.smartimport 5.1.3.201810200350-r) requires 'bundle org.eclipse.ui.ide 3.12.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:42:01.750
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:42:01.751
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:42:01.751
+!MESSAGE Software being installed: Java implementation of Git - Command Line Interface 5.1.3.201810200350-r (org.eclipse.jgit.pgm.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:42:01.751
+!MESSAGE Missing requirement: JGit Command Line Interface 5.1.3.201810200350-r (org.eclipse.jgit.pgm 5.1.3.201810200350-r) requires 'package org.eclipse.jetty.continuation [9.4.5,10.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:42:01.751
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:42:01.751
+!MESSAGE From: Java implementation of Git - Command Line Interface 5.1.3.201810200350-r (org.eclipse.jgit.pgm.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:42:01.751
+!MESSAGE To: org.eclipse.jgit.pgm [5.1.3.201810200350-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:42:01.785
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:42:01.790
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:42:01.790
+!MESSAGE Software being installed: Java implementation of Git - Command Line Interface 5.1.3.201810200350-r (org.eclipse.jgit.pgm.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:42:01.791
+!MESSAGE Missing requirement: JGit Command Line Interface 5.1.3.201810200350-r (org.eclipse.jgit.pgm 5.1.3.201810200350-r) requires 'package org.eclipse.jetty.continuation [9.4.5,10.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:42:01.792
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:42:01.792
+!MESSAGE From: Java implementation of Git - Command Line Interface 5.1.3.201810200350-r (org.eclipse.jgit.pgm.feature.group 5.1.3.201810200350-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:42:01.792
+!MESSAGE To: org.eclipse.jgit.pgm [5.1.3.201810200350-r]
+!SESSION 2018-10-25 12:10:36.189 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-10-25 12:44:41.973
+!MESSAGE Invalid ZIP archive: src/dat.txt [in TopTen]
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-10-25 12:44:45.054
+!MESSAGE Invalid ZIP archive: src/dat.txt [in TopTen]
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-10-25 12:47:27.366
+!MESSAGE Invalid ZIP archive: src/dat.txt [in TopTen]
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-10-25 12:47:28.192
+!MESSAGE Invalid ZIP archive: src/dat.txt [in TopTen]
