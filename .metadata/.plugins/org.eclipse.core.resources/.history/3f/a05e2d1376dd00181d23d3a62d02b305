@@ -1,0 +1,23 @@
+package pong;
+
+public class Ball extends Sprite implements JavaMap {
+	
+	private int xdir;
+	//direction along the x axis
+	private int ydir;
+	//direction along the y axis
+	
+	public Ball() {
+		
+		initBall();
+	}
+
+	public void initBall() {
+		
+		xdir = 1;
+		ydir = -1;
+		
+		loadImage();
+		getImageDimensions();
+	}
+}

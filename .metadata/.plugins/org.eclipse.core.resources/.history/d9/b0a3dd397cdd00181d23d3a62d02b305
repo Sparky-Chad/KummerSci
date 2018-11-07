@@ -1,0 +1,20 @@
+package pong;
+
+import java.awt.event.KeyEvent;
+import javax.swing.ImageIcon;
+
+public class Paddle extends Sprite implements JavaMap{
+	
+	private int dx;
+	
+	public Paddle() {
+		initPaddle();
+	}
+	
+	private void initPaddle() {
+		
+		loadImage();
+		getDimension
+	}
+
+}

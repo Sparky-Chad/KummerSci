@@ -1,0 +1,9 @@
+
+public class TableCraft extends Payment {
+	public TableCraft(double total, double rate, int months) {
+		this.total = total;
+		this.rate = rate;
+		this.monthTotal = months;
+	}
+
+}

@@ -1,0 +1,16 @@
+package pong;
+
+import java.awt.*;
+
+public class Paddle extends Rectangle {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private static int height = 200;
+	private static int width = 50;
+	
+	public Paddle() {
+		super(height, width);
+	}
+}

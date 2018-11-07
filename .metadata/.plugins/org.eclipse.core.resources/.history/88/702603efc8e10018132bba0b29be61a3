@@ -1,0 +1,17 @@
+import java.awt.*;
+import javax.swing.*;
+
+public class Gui {
+	public void main(String args[]) {
+		JFrame window = new JFrame();
+		window.setTitle("7.4 Lab");
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		TableCraft pane;
+		
+		int months;
+		double otf[] = new double[2];
+		
+		otf[0] = Double.parseDouble(JOptionPane.showInputDialog("total to pay"));
+		otf[1] = Double.parseDouble(JOptionPane.showInputDialog("Rate of interest"));
+	}
+}

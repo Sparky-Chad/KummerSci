@@ -1,0 +1,22 @@
+package pong;
+
+import java.awt.*;
+
+//object to help implement for other classes
+public class Sprite {
+	private int x;
+	//displace x coords
+	private int y;
+	//y coords
+	private int width;
+	//width of the object
+	private int height;
+	//height of the object
+	private Image image;
+	//image object
+	
+	private void setX(int x) {
+		this.x = x;
+	}
+	
+}

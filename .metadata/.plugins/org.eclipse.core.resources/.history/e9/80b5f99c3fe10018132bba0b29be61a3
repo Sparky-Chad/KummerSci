@@ -1,0 +1,5 @@
+
+public class Payment {
+	protected int principle;
+	protected double monthly;
+}

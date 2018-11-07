@@ -1,0 +1,6 @@
+
+public class Payment {
+	//interface of the payment class for the TableCraft
+	protected int total;
+
+}
