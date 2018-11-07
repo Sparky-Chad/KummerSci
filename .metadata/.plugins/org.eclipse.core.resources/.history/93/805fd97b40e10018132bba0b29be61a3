@@ -1,0 +1,6 @@
+
+public class Payment {
+	protected double principle;
+	protected double monthly;
+	protected double interest;
+}

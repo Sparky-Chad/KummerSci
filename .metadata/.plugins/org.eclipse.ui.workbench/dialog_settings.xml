@@ -4,4 +4,8 @@
 		<item value="360" key="DIALOG_X_ORIGIN"/>
 		<item value="-44" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ImportExportAction">
+	</section>
 </section>

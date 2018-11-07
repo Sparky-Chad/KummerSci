@@ -1,0 +1,22 @@
+
+public class Payment {
+	//interface of the payment class for the TableCraft
+	protected double total;
+	protected double rate;
+	protected double balance;
+	protected int monthTotal;
+	
+	public double interest() {
+		return balance * rate;
+	}
+	//returns the interest of the current balance
+	public double principle() {
+		return balance - interest();
+	}
+	public void balance(int month) {
+		
+	}
+	public void monthlyPay() {
+		return total/monthTotal;
+	}
+}

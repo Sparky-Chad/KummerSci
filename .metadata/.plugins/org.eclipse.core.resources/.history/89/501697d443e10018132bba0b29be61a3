@@ -1,0 +1,11 @@
+
+public class TableCraft extends Payment {
+	
+	public Payment pay = new Payment();
+	public TableCraft(double total, double rate, int months) {
+		pay.total = total;
+		pay.rate = rate;
+		pay.monthTotal = months;
+	}
+
+}

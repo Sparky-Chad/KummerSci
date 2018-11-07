@@ -1,0 +1,20 @@
+package pong;
+
+import java.awt.EventQueue;
+import javax.swing.JFrame;
+
+public class Game extends JFrame{ 
+	public Game() {
+		gameInit();
+	}
+	public void gameInit() {
+        add(new ());
+        setTitle("Breakout");
+        
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setSize(Commons.WIDTH, Commons.HEIGTH);
+        setLocationRelativeTo(null);
+        setResizable(false);
+	}
+
+}

@@ -1,0 +1,13 @@
+import java.awt.*;
+import javax.swing.*;
+
+public class Gui {
+	public void main(String args[]) {
+		JFrame window = new JFrame();
+		window.setTitle("7.4 Lab");
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		TableCraft pane;
+		
+		
+	}
+}

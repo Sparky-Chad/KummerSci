@@ -1,0 +1,13 @@
+import javax.swing.*;
+import java.awt.*;
+
+
+public class gui {
+	public static void main(String args[]) {
+		JFrame window = new JFrame();
+		window.setTitle("The Mysterious Signal");
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Container pane = window.getContentPane();
+		ColorPanel p1 = new ColorPanel();
+	}
+}

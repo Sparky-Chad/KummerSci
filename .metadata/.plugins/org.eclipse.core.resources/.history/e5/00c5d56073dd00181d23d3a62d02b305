@@ -1,0 +1,12 @@
+package pong;
+
+public class JavaMap {
+	
+	public static final int width = 600;
+	public static final int height = 500;
+	public static final int bottom = 400;
+	public static final int init_x = width/2;
+	public static final int init_y = height/2;
+	public static final int period = 10;
+
+}
