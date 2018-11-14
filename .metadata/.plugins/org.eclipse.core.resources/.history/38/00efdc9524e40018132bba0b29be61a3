@@ -1,0 +1,43 @@
+package matrix;
+
+import javax.swing.*;
+import javax.swing.table.AbstractTableModel;
+import java.util.*;
+
+
+public class Matrix extends JTable implements JavaMap{
+	
+	protected ArrayList<ArrayList<Object>> data = new ArrayList<ArrayList<Object>>();
+	int dim[] = new int[2];
+	//this contains a dynamic data array for the table, should only be needed for 
+	//operations between the arrays
+	public Matrix(int rows, int columns) {
+		
+	}
+	class tableModel extends AbstractTableModel {
+	
+		public void resize(int height, int width) {
+			//resize the array list to find what size they should be at
+			while(data.size() != height) {
+				//run when the number of columns are not the same
+			}
+		}
+
+		public int getRowCount() {
+			// TODO Auto-generated method stub
+			return 0;
+		}
+
+		public int getColumnCount() {
+			// TODO Auto-generated method stub
+			return 0;
+		}
+
+		public Object getValueAt(int rowIndex, int columnIndex) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		
+	}
+	
+}
