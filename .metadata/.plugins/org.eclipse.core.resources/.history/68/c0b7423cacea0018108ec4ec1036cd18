@@ -1,0 +1,9 @@
+//Matrix class
+//create list for two dimensional data
+//TODO
+//Add functionality of the data
+import java.util.ArrayList;
+import java.util.List;
+public class matrix {
+	public ArrayList<List<Interger>> data;
+}

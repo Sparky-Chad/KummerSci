@@ -9,4 +9,6 @@
 <fullyQualifiedTypeName name="java.awt.Event"/>
 <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="javax.swing.table.TableModel"/>
+<fullyQualifiedTypeName name="javax.swing.event.TableModelListener"/>
 </qualifiedTypeNameHistroy>

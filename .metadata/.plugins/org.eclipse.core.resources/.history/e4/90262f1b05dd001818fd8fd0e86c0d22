@@ -1,7 +1,0 @@
-import java.awt.*;
-
-public class Rectangle {
-
-	public Color color;
-	private int x, y, h, w;
-}

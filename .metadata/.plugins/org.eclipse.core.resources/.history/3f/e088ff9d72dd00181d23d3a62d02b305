@@ -1,7 +1,0 @@
-package pong;
-
-public class JavaMap {
-	
-	public static final int width = 300;
-
-}

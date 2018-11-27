@@ -1,0 +1,24 @@
+//Matrix class
+//create list for two dimensional data
+//TODO
+//Add functionality of the data
+import java.util.ArrayList;
+import java.util.List;
+public class Matrix {
+	public ArrayList<List<Integer>> data;
+	
+	public Matrix() {
+		//default constructor
+		data = new ArrayList<List<Integer>>();
+	}
+	public Matrix(ArrayList<List<Integer>> in) {
+		//fill constructor
+		data = in;
+	}
+	
+	//functions
+	public void resize(int rows, int columns) {
+		//resize the arraylist to the correct dimensions
+		
+	}
+}
