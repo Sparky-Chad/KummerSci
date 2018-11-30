@@ -1,8 +1,0 @@
-//Matrix class
-//create list for two dimensional data
-//TODO
-//Add functionality of the data
-import java.util.ArrayList;
-public class matrix {
-
-}

@@ -55,6 +55,14 @@ public class Matrix {
 		return columns;
 	}
 
+	public void randomize() {
+		for(int i = 0; i < rows; i++) {
+			for(int j = 0; j < columns; j++) {
+				double ran = Math.random() * 15;
+				setDat(i, j, ran);
+			}
+		}
+	}
 	/*
 	 * TODO
 	 * Divide and Subtract functions as well as a clear data function
