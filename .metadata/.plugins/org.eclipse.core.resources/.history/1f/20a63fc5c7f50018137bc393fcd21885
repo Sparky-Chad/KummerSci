@@ -51,9 +51,6 @@ public class MatPane extends JPanel implements ActionListener {
 	public MatPane() {
 		Initialize(3, 3);
 	}
-	public MatPane(int rows, int columns) {
-		Initialize(rows, columns);
-	}
 	
 	//Initializers ****************
 	public void Initialize(int rows, int columns) {

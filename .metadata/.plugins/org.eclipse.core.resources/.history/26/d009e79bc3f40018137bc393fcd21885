@@ -48,12 +48,6 @@ public class MatPane extends JPanel implements ActionListener {
 	 */
 	
 	//Constructors ****************
-	public MatPane() {
-		Initialize(3, 3);
-	}
-	public MatPane(int rows, int columns) {
-		Initialize(rows, columns);
-	}
 	
 	//Initializers ****************
 	public void Initialize(int rows, int columns) {
@@ -80,7 +74,7 @@ public class MatPane extends JPanel implements ActionListener {
 	}
 	private void button() {
 		JButton button = new JButton("Randomize");
-		button.setSize(10, 5);
+		button.setSize(10, 5)
 		button.addActionListener(this);
 		button.setActionCommand("Rand");
 		super.add(button, 1, 1);

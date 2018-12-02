@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="14" version="2.0">
+<workbench progressCount="20" version="2.0">
 <workbenchAdvisor/>
-<window height="651" maximized="true" width="1354" x="0" y="44">
+<window height="622" maximized="true" width="1348" x="0" y="44">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -33,17 +33,27 @@
 <presentation id="org.eclipse.ui.internal.presentations.classic.WorkbenchPresentationFactoryClassic">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MatPane.java" partName="MatPane.java" path="/home/cjlonghorn/workspace/Matrix 2.0/src/MatPane.java" title="MatPane.java" tooltip="Matrix 2.0/src/MatPane.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MatPane.java" partName="MatPane.java" path="/home/cjlonghorn/workspace/Matrix 2.0/src/MatPane.java" title="MatPane.java" tooltip="Matrix 2.0/src/MatPane.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Matrix 2.0/src/MatPane.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2355" selectionTopPixel="942"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1463" selectionTopPixel="652"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Matrix.java" partName="Matrix.java" path="/home/cjlonghorn/workspace/Matrix 2.0/src/Matrix.java" title="Matrix.java" tooltip="Matrix 2.0/src/Matrix.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Matrix 2.0/src/Matrix.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1496" selectionTopPixel="434"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mathmatics.java" partName="Mathmatics.java" path="/home/cjlonghorn/workspace/Matrix 2.0/src/Mathmatics.java" title="Mathmatics.java" tooltip="Matrix 2.0/src/Mathmatics.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Matrix 2.0/src/Mathmatics.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="606" selectionTopPixel="70"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Gui.java" partName="Gui.java" path="/home/cjlonghorn/workspace/Matrix 2.0/src/Gui.java" title="Gui.java" tooltip="Matrix 2.0/src/Gui.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Matrix 2.0/src/Gui.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="954" selectionTopPixel="282"/>
 </editor>
 </editors>
 <views>
@@ -82,6 +92,7 @@
 <expanded>
 <category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Warnings (8 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="310" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -300,162 +311,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Matrix/src/matrix/JavaMap.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Matrix/src/matrix/Matrix.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/74 Lab/src/TableCraft.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Matrix/src/matrix/JavaMap.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Matrix 2.0/src/MatPane.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Matrix 2.0/src/Matrix.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Matrix 2.0/src/Mathmatics.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Matrix 2.0/src/Gui.java"/>
 </editors>
 <item historyLabel="Matrix.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<position info="not_deleted" x="1496" y="0"/>
 </item>
-<item historyLabel="TableCraft.java" index="2">
-<position info="not_deleted" x="28" y="0"/>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="3293" y="0"/>
 </item>
-<item historyLabel="Matrix.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="2070" y="0"/>
 </item>
-<item historyLabel="JavaMap.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="2108" y="0"/>
 </item>
-<item historyLabel="Matrix.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="2106" y="0"/>
 </item>
-<item historyLabel="Matrix.java" index="1">
-<position info="not_deleted" x="790" y="0"/>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="2099" y="0"/>
 </item>
-<item historyLabel="Matrix.java" index="1">
-<position info="not_deleted" x="666" y="0"/>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="2302" y="0"/>
 </item>
-<item historyLabel="Matrix.java" index="1">
-<position info="not_deleted" x="687" y="0"/>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="1625" y="0"/>
 </item>
-<item historyLabel="Matrix.java" index="1">
-<position info="not_deleted" x="790" y="0"/>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="1638" y="0"/>
 </item>
-<item historyLabel="Matrix.java" index="1">
-<position info="not_deleted" x="787" y="0"/>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="2795" y="0"/>
 </item>
-<item historyLabel="JavaMap.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="2785" y="0"/>
 </item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Mathmatics.java" index="2">
+<position info="not_deleted" x="96" y="0"/>
 </item>
-<item historyLabel="Matrix.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Mathmatics.java" index="2">
+<position info="not_deleted" x="265" y="0"/>
 </item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Mathmatics.java" index="2">
+<position info="not_deleted" x="188" y="0"/>
 </item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="2362" y="0"/>
+<item historyLabel="Mathmatics.java" index="2">
+<position info="not_deleted" x="284" y="0"/>
 </item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="245" y="0"/>
+<item historyLabel="Mathmatics.java" index="2">
+<position info="not_deleted" x="299" y="0"/>
 </item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1431" y="0"/>
+<item historyLabel="Mathmatics.java" index="2">
+<position info="not_deleted" x="395" y="0"/>
 </item>
-<item historyLabel="MatPane.java" index="4">
+<item historyLabel="Mathmatics.java" index="2">
+<position info="not_deleted" x="433" y="0"/>
+</item>
+<item historyLabel="Mathmatics.java" index="2">
+<position info="not_deleted" x="606" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="96" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="289" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="276" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
 <position/>
 </item>
-<item historyLabel="MatPane.java" index="4">
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="292" y="0"/>
+</item>
+<item historyLabel="Matrix.java" index="1">
+<position info="not_deleted" x="1496" y="0"/>
+</item>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="2785" y="0"/>
+</item>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="2206" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="292" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="578" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="323" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="340" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="356" y="0"/>
+</item>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="2206" y="0"/>
+</item>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="1367" y="0"/>
+</item>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="1388" y="0"/>
+</item>
+<item historyLabel="MatPane.java" index="0">
+<position info="not_deleted" x="1463" y="0"/>
+</item>
+<item historyLabel="Matrix.java" index="1">
+<position info="not_deleted" x="1496" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="356" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="604" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="701" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="578" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="557" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="578" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="530" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="764" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="765" y="0"/>
+</item>
+<item historyLabel="Gui.java" index="3">
 <position/>
 </item>
-<item historyLabel="MatPane.java" index="4">
+<item historyLabel="Gui.java" index="3">
 <position/>
 </item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1358" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1943" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1984" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="2023" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="2023" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1970" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="201" y="4"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="200" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1399" y="10"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1915" y="6"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="2111" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="2125" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="2128" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1517" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1865" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1656" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1688" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1602" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1480" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1581" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1565" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1681" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="201" y="4"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="239" y="5"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1700" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1865" y="0"/>
-</item>
-<item historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1804" y="0"/>
-</item>
-<item active="true" historyLabel="MatPane.java" index="4">
-<position info="not_deleted" x="1840" y="0"/>
+<item active="true" historyLabel="Gui.java" index="3">
+<position info="not_deleted" x="981" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -474,6 +483,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Gui.java" tooltip="Matrix 2.0/src/Gui.java">
+<persistable path="/Matrix 2.0/src/Gui.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mathmatics.java" tooltip="Matrix 2.0/src/Mathmatics.java">
+<persistable path="/Matrix 2.0/src/Mathmatics.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Matrix.java" tooltip="Matrix 2.0/src/Matrix.java">
 <persistable path="/Matrix 2.0/src/Matrix.java"/>
 </file>
@@ -512,12 +527,6 @@
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Timer.class" tooltip="java.util.Timer">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=CompNum/\/usr\/lib\/java\/jdk1.8.0_191\/jre\/lib\/rt.jar&lt;java.util(Timer.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Player.java" tooltip="Pong/src/topten/Player.java">
-<persistable path="/Pong/src/topten/Player.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" tooltip="Pong/src/pong/Game.java">
-<persistable path="/Pong/src/pong/Game.java"/>
 </file>
 </mruList>
 </workbench>

@@ -52,7 +52,7 @@ public class MatPane extends JPanel implements ActionListener {
 		Initialize(3, 3);
 	}
 	public MatPane(int rows, int columns) {
-		Initialize(rows, columns);
+		
 	}
 	
 	//Initializers ****************
