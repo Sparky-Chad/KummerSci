@@ -1,7 +1,0 @@
-package pong;
-
-import java.awt.event.*;
-
-public class Paddle {
-
-}

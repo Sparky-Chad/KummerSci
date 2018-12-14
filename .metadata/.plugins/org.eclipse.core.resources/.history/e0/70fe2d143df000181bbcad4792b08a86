@@ -1,0 +1,20 @@
+
+import javax.swing.*;
+
+public class DatPane extends JPanel{
+	
+	/*
+	 * TODO
+	 * add two different table datas and then needs 
+	 * to have the seperate tables
+	 * 
+	 * drop down panels to control the size of the matrixes
+	 */
+	public JTable table[];
+	public Matrix matrix[];
+	
+	public DatPane() {\
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package matrix;
+
+import javax.swing.*;
+
+public class Matrix extends JTable implements JavaMap{
+	
+}

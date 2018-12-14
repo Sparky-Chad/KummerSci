@@ -1,0 +1,21 @@
+package matrix;
+
+import javax.swing.*;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Matrix extends JTable implements JavaMap{
+	
+	protected ArrayList<List<Integer>> dat = new ArrayList<List<Integer>>();
+	//this contains a dynamic data array for the table, should only be needed for 
+	//operations between the arrays
+	public Matrix() {
+		
+	}
+	
+	public void resize(int height, int width) {
+		
+	}
+	
+}

@@ -1,0 +1,6 @@
+package matrix;
+
+public interface JavaMap {
+	//keep multiple defaults for everything
+	String HomePath = "/home/cjlonghorn/workspace/Matrix";
+}

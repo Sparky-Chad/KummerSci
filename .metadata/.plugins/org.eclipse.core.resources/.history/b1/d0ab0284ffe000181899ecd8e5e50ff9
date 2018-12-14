@@ -1,7 +1,0 @@
-
-public interface DevMap {
-	
-	public static final int Height = 400;
-	public static final int Width = 800;
-
-}

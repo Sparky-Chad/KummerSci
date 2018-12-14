@@ -1,0 +1,21 @@
+package matrix;
+
+import javax.swing.*;
+
+
+public class Matrix extends JTable implements JavaMap{
+	
+
+	//this contains a dynamic data array for the table, should only be needed for 
+	//operations between the arrays
+	public Matrix() {
+		
+	}
+	class tableModel extends AbstractTableModel {
+		
+	}
+	public void resize(int height, int width) {
+		
+	}
+	
+}

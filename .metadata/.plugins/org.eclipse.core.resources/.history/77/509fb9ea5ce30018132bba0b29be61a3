@@ -1,0 +1,10 @@
+package matrix;
+
+import javax.swing.*;
+import java.util.ArrayList;
+
+public class Matrix extends JTable implements JavaMap{
+	
+	protected List<List<int>> 
+	
+}

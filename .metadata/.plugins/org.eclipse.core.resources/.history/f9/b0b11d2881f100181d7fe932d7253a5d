@@ -1,0 +1,100 @@
+//Matrix class
+//create list for two dimensional data
+//TODO
+//Add functionality of the data
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+public class Matrix {
+	
+	public double data[][];
+	
+	public Matrix() {
+		//default constructor
+		data = new ArrayList<ArrayList<Integer>>();
+	}
+	public Matrix(ArrayList<ArrayList<Integer>> in) {
+		//fill constructor
+		data = in;
+	}
+	
+	//functions
+	public void resize(int rows, int columns) {
+		/*
+		 * TODO resize
+		 * - Create diff variables to describe the value of data difference
+		 * 		between the original and the new resizing being requested
+		 * - use if/else statements to determine the needed operations and how many 
+		 * 		times those should be run
+		 * - use loops to run a certain number of times
+		 * - use the given info to add or remove the needed components
+		 */
+		int difRow = rows - data.size();
+		int difColumn = columns - data.get(0).size();
+		//returns the needed number of runs for the program and in which form
+		if(JavaMap.debug) System.out.println("DEBUG: BEGIN RESIZE");
+		//For Rows
+		if(difRow > 0) {
+			//checks if rows need to be added
+			for(int i = 0; i < difRow; i++){
+				//adds rows for the difRow value
+				data.add(new ArrayList<Integer>());
+			}
+		} else if(difRow < 0) {
+			//checks if rows should be removed
+			for(int i = 0; i < Math.abs(difRow); i++) {
+				//make it repeat for each row needed
+				data.remove(data.size() - 1);
+				//removes the last in the array
+			}
+		}
+		//if neither than no need for a change
+		if(difColumn > 0) {
+			//needs to add more to the columns 
+			for(int i = 0; i < data.size(); i++) {
+				//run through the rows
+				for(int j = 0; j < difColumn; j++) {
+					//run for the needed difference
+					data.get(i).add(0);
+				} //add a new column
+			}
+		} else if (difColumn < 0) {
+			//check if needs to remove them
+			for(int i = 0; i < data.size(); i++) {
+				//run through rows
+				for(int j = 0; j < difColumn; j++) {
+					//run for the needed difference
+					data.get(i).remove(data.size() - 1);
+					//remove the last one
+				}
+			}
+		}// finished rows
+		
+		/*
+		for(int i =0; i < rows; i++) {
+			//for each row add another column 
+			data.add(new ArrayList<Integer>());
+			for(int j = 0; j < columns; j++) {
+				//for each run add another row
+				data.get(i).add(0);
+			}
+		}
+		Original way of doing this operations*/
+	}
+	
+	//sets and gets of data
+	public void setDat(int rows, int column, int dataIn) {
+		data.get(rows).set(column, dataIn);
+		//set the data at the specific point
+	}
+	public int getDat(int rows, int column) {
+		return data.get(rows).get(column);
+	}
+
+	/*
+	 * TODO
+	 * Divide and Subtract functions as well as a clear data function
+	 */
+}

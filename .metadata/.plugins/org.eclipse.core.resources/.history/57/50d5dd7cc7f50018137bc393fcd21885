@@ -1,0 +1,22 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.*;
+
+public class Gui extends JPanel implements ActionListener{
+
+	private MatPane matrixPane[];
+	//matrix panels for the rest of this
+	private Mathmatics control;
+	public Gui() {
+		
+	}
+	
+	
+	//Listen for the button to be hit
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+import javax.swing.*;
+
+public class Mathmatics extends JPanel{
+	private ComboBox<String> evaluation;
+	//combo box to chose all of the different things
+	public Mathmatics() {
+		
+	}
+}
