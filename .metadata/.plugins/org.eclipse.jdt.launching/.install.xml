@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+<entry loc="C:\Program Files\AdoptOpenJDK\jdk8u202-b08" stamp="1549237278576"/>
 <entry loc="/usr/lib/jvm/java-8-openjdk-amd64" stamp="1540686020000"/>
 <entry loc="/usr/lib/java/jdk1.8.0_191" stamp="1538830532000"/>
 </dirs>
