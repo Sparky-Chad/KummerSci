@@ -33,23 +33,28 @@ public class Sentance {
 		//counter for the String
 		if(dataMap.debug) System.out.println("DEBUG: Begin InputSentance\nSentance: " + in + "\n\nSentance Begin processing:");
 		String sinDat;
-		//check if the sentance has ended
-		while(!Util.isEndSen(in.charAt(index))) {
+		//check if the sentance has ended			also make sure the index is less than the string length
+		while(index < in.length()) {
 			sinDat = "";
-			//begin word data
-			while(Util.isChar(in.charAt(index))) {
-				//Debug output a character when it is a char
-				if(dataMap.debug) System.out.print(" "+sinDat.length() + "\\" + in.charAt(index));
-			//ensure that the letter is a thing to continue the word
-				sinDat += Character.toString(in.charAt(index));
+			try {
+				//begin word data
+				while(Util.isChar(in.charAt(index))) {
+					//Debug output a character when it is a char
+					if(dataMap.debug) System.out.print(" "+sinDat.length() + "\\" + in.charAt(index));
+				//ensure that the letter is a thing to continue the word
+					sinDat += Character.toString(in.charAt(index));
+					index++;
+				}
+				if(sinDat.length() > 0) {
+					data.add(new Word(sinDat));
+				}
+				//if the data is above "" then it will be added to data
+				if(dataMap.debug) System.out.print("^");
 				index++;
-			}
-			if(sinDat.length() > 0) {
+			} catch(StringIndexOutOfBoundsException e ) {
+				if(dataMap.debug) System.out.println("\nCaught end of string");
 				data.add(new Word(sinDat));
 			}
-			//if the data is above "" then it will be added to data
-			if(dataMap.debug) System.out.print("^");
-			index++;
 		}
 		//when the sentence is done end the method
 		if(dataMap.debug) System.out.println("\nEndInputSentance");

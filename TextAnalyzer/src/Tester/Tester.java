@@ -19,5 +19,6 @@ public class Tester {
 			
 			
 		} while(out);
+		input.close();
 	}
 }

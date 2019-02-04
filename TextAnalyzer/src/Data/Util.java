@@ -17,6 +17,8 @@ public class Util {
 				return false;
 		}
 	}
+	
+	
 	public static boolean ifDipthong(String in) {
 		String[] dip = new String[] {"ea", "ay", "ou", "ie", "oi", "ee", "ai", "ue"};
 		//list of dipthongs that can be used for the one syllable vowels

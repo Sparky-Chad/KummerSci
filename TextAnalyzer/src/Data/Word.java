@@ -4,7 +4,7 @@ public class Word {
 	
 	//Private word data of a string
 	private String data;
-	
+	//TODO Make sure the scoring system accounts correctly for words like queue others
 	public Word() {
 		data = "";
 	}
