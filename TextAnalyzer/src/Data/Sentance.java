@@ -72,7 +72,7 @@ public class Sentance {
 	}
 	
 	//returns a count of the words in the sentance
-	public int getSize() {
+	public int getWordSize() {
 		return data.size();
 	}
 }

@@ -76,6 +76,41 @@ public class Paragraph {
 		return in.replaceAll("//r|//n|/n|/r", " ");
 	}
 	
+	//Returns the syllable count for all variables inside of the paragraph
+	public int getSyllable() {
+		int out = 0;
+		for(Sentance dat: inner) {
+			out += dat.getSylCount();
+		}
+		return out;
+	}
+	
+	public int totalSyl() {
+		int out = 0;
+		for(Sentance deci: inner) {
+			out += deci.getSylCount();
+		}
+		return out;
+	}
+	public int totalWords() {
+		int out = 0;
+		for(Sentance deci: inner) {
+			out += deci.getWordSize();
+		}
+		return out;
+	}
+	
+	public double FleuschScore() {
+		double out = 0;
+		
+		double WC = (double)totalWords();
+		double SC = (double)totalSyl();
+		double SenC = (double)inner.size();
+		//functionality for the scoring system
+		//put out the correct score for a given text
+		out = 206.853-(84.6*(SC/WC) + 1.015*(WC/SenC));
+		return out;
+	}
 	//Create file system
 	/*
 	 * TODO
