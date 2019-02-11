@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Paragraph {
 
 	private ArrayList<Sentance> inner;
-	
+	public String text;
 	public Paragraph() {
 		inner = new ArrayList<Sentance>();
 	}
@@ -31,6 +31,7 @@ public class Paragraph {
 	//#TODO add methods for input
 	public void input(String in) {
 		String sub = "";
+		text = in;
 		//a sub string that will be able to input into the sentance structure
 		in = formatter(in);
 		if(dataMap.debug) System.out.print("Begin Paragraph input\n");
@@ -73,7 +74,7 @@ public class Paragraph {
 	
 	//formats the string for use with the paragraph
 	public String formatter(String in) {
-		return in.replaceAll("//r|//n|/n|/r", " ");
+		return in.replaceAll("\\r|\\n|\n|\r", " ");
 	}
 	
 	//Returns the syllable count for all variables inside of the paragraph
@@ -100,7 +101,7 @@ public class Paragraph {
 		return out;
 	}
 	
-	public double FleuschScore() {
+	public double FleschScore() {
 		double out = 0;
 		
 		double WC = (double)totalWords();
@@ -111,11 +112,9 @@ public class Paragraph {
 		out = 206.853-(84.6*(SC/WC) + 1.015*(WC/SenC));
 		return out;
 	}
-	//Create file system
-	/*
-	 * TODO
-	 * add in fleusch scoring system
-	 * enable that system to output in numeral and string format
-	 * ensure all methods work properly
-	 */
+
+	//toString returns an output of the score and the grade level
+	public String toString() {
+		return String.format("FleschScore: %.2f\nThe text is at the %s level", FleschScore(), Util.ftoGrade(FleschScore()));
+	}
 }

@@ -12,6 +12,6 @@ public class Tester {
 		File inputFile = new File(dataMap.fileHome + "Gettysburg.txt");
 		para = new Paragraph(inputFile);
 		
-		System.out.println("Fleusch Score of " + para.FleuschScore());
+		System.out.println("Fleusch Score of " + para.FleschScore());
 	}
 }
