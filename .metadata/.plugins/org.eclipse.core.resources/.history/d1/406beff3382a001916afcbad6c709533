@@ -1,0 +1,21 @@
+package Tester;
+
+public class Window {
+
+	/*
+	 * This class is the entire gui window that the user will see
+	 * 
+	 * one text panel to allow the user to input text
+	 * 
+	 * 3 buttons
+	 * analyze
+	 * clear
+	 * load to analyze file
+	 * 
+	 * analyze will analyze all the text written inside the box
+	 * 
+	 * clear will clear the text box
+	 * 
+	 * 
+	 */
+}
