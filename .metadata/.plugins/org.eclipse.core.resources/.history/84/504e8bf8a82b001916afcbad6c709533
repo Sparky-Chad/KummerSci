@@ -1,0 +1,136 @@
+package gui;
+
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+
+import javax.swing.*; //for all swing components
+import Data.*;
+
+public class Window extends JFrame {
+	
+	private static Dimension BUTTON_Default = new Dimension(50, 70);
+
+	//Class Window will act as the glue for the rest of the sub classes in it to add on too
+	
+	/*
+	 * This class is the entire gui window that the user will see
+	 * 
+	 * one text panel to allow the user to input text
+	 * 
+	 * 3 buttons
+	 * analyze
+	 * clear
+	 * load to analyze file
+	 * 
+	 * analyze will analyze all the text written inside the box
+	 * 
+	 * clear will clear the text box
+	 * 
+	 * load will load a new file
+	 */
+	JTextField ftbx;
+	JTextArea text;
+	
+	
+	JButton c, fl, a;
+	
+	public Window() {
+		super();
+		JPanel gui = new JPanel();
+		gui.setLayout(new FlowLayout());
+		//Initialize the text boxes
+		text = new JTextArea();
+		ftbx = new JTextField();
+		text.setColumns(50);
+		text.setRows(9);
+		//set so it is big
+		ftbx.setColumns(50);;
+		//set to be small
+		
+		ButtonPane();
+		
+		//ADD COMPONENTS TO THE FRAME
+
+		super.setTitle("Flesch Score Creator");
+		super.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		gui.add(ftbx);
+		gui.add(fl);
+		gui.add(text);
+		gui.add(c);
+		gui.add(a);
+		gui.setSize(500, 800);
+		
+		super.add(gui);
+		super.setSize(600,600);;
+		
+	}
+	
+	//method to create and contain the button panel
+	protected void ButtonPane() {
+		c = new JButton("Clear Text");
+		//create and initiate the buttons to be used in the program
+		fl = new JButton("Load File");
+		a = new JButton("Analyze Text");
+		
+		//define the size of each
+		c.setSize(Window.BUTTON_Default);
+		fl.setSize(Window.BUTTON_Default);
+		a.setSize(Window.BUTTON_Default);
+		
+		c.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+
+				//Clear text box
+				text.setText(null);
+			}
+			
+		});
+		
+		//loading the file output
+		fl.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//load file and output result
+				File out = new File(dataMap.fileHome + ftbx.getText());
+				if(out.exists()) {
+					Paragraph dataTemp = new Paragraph(out);
+					//create a new dataTemp to then get the correct output
+					String outputString = dataTemp.toString();
+					//Create String for outputting
+					JOptionPane.showMessageDialog(Window.this.getParent(), (Object)outputString, "Score for " + ftbx.getText(), JOptionPane.PLAIN_MESSAGE);
+				//not to sure if this is correct
+					text.setText(dataTemp.text);
+				}
+			}
+		});
+		
+		//add just analyze text
+		a.addActionListener(new ActionListener() {
+			
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				//will take the input text and analyze
+				Paragraph dataTemp = new Paragraph(text.getText());
+				//import text to create basis
+				JOptionPane.showMessageDialog(Window.this.getParent(), (Object)dataTemp.toString(), "Input Text Score", JOptionPane.PLAIN_MESSAGE);
+			}
+		});
+
+	}//end the class creator
+	
+	public static void main(String args[]) {
+	
+		javax.swing.SwingUtilities.invokeLater(new Runnable() {
+			
+			public void run() {
+				// TODO Auto-generated method stub
+				Window gui = new Window();
+				gui.setVisible(true);
+			}
+		});
+		
+	}
+}
