@@ -1,12 +1,12 @@
-.metadata
-bin/
-tmp/
+.metadata/*
+bin/*
+tmp/*
 *.tmp
 *.bak
 *.swp
 *~.nib
 local.properties
-.settings/
+.settings/*
 .loadpath
 .recommenders
 
@@ -50,6 +50,8 @@ local.properties
 .apt_generated/
 
 # Scala IDE specific (Scala & Java development for Eclipse)
-.cache-main
+.cache-main/*
 .scala_dependencies
-.worksheet
+.worksheet/*
+.metadata/version.ini
+/.metadata/
