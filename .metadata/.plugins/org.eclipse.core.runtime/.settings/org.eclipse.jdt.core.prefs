@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=/usr/lib/eclipse
+org.eclipse.jdt.core.classpathVariable.GridWorldJar=C\:/Users/lapec/OneDrive/Desktop/workspace/KummerSci/GridWorld/gridworld.jar
 org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files/AdoptOpenJDK/jdk8u202-b08/jre/lib/rt.jar
 org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files/AdoptOpenJDK/jdk8u202-b08/src.zip
 org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
@@ -9,5 +10,6 @@ org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.5
 org.eclipse.jdt.core.compiler.compliance=1.5
+org.eclipse.jdt.core.compiler.release=disabled
 org.eclipse.jdt.core.compiler.source=1.5
 org.eclipse.jdt.core.timeoutForParameterNameFromAttachedJavadoc=50

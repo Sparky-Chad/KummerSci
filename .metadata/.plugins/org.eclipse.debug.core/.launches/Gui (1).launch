@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/Matrix 2.0/src/Gui.java"/>
+<listEntry value="/Employee/src/Util/gui.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Gui"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Matrix 2.0"/>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Util.gui"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Employee"/>
 </launchConfiguration>

@@ -21,9 +21,19 @@
 <fullyQualifiedTypeName name="java.lang.Character"/>
 <fullyQualifiedTypeName name="Data.Util"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="PartTimeEmployee"/>
 <fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="Util.RanMap"/>
+<fullyQualifiedTypeName name="data.PartTimeEmployee"/>
+<fullyQualifiedTypeName name="data.FullTimeEmployee"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="info.gridworld.actor.ActorWorld"/>
+<fullyQualifiedTypeName name="info.gridworld.grid.Location"/>
+<fullyQualifiedTypeName name="info.gridworld.grid.AbstractGrid"/>
+<fullyQualifiedTypeName name="info.gridworld.grid.UnboundedGrid"/>
+<fullyQualifiedTypeName name="info.gridworld.actor.Actor"/>
+<fullyQualifiedTypeName name="info.gridworld.actor.Bug"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
 </qualifiedTypeNameHistroy>
