@@ -59,3 +59,9 @@ local.properties
 .metadata/.mylyn/.tasks.xml.zip
 .metadata/.log
 .metadata/.log
+.metadata/.log
+*.resources
+ActorWars/.classpath
+.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
