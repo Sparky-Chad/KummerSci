@@ -1,7 +1,8 @@
+package examples;
+
 import org.masonacm.actorwars.LocationFinder;
 import org.masonacm.actorwars.Peon;
 import org.masonacm.actorwars.Wheat;
-
 import com.gawdl3y.util.DynamicValue;
 
 import info.gridworld.grid.Location;

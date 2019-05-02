@@ -1,3 +1,5 @@
+package examples;
+
 import org.masonacm.actorwars.ActorWarWorld;
 
 public class ActorWarsRunner {

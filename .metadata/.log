@@ -17,7 +17,6 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 !ENTRY org.eclipse.equinox.p2.operations 4 0 2018-10-25 03:33:47.725
 !MESSAGE Operation details
 !SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2018-10-25 03:33:47.726
-!MESSAGE Cannot complete the install because one or more required items could not be found.
 !SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:33:47.726
 !MESSAGE Software being installed: Git integration for Eclipse - Task focused interface 5.1.3.201810200350-r (org.eclipse.egit.mylyn.feature.group 5.1.3.201810200350-r)
 !SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2018-10-25 03:33:47.726
